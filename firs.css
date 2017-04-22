@@ -1,10 +1,11 @@
 /*
-Theme Name: Schema by MyThemeShop
-Theme URI: http://mythemeshop.com/themes/schema/
+Theme Name: Schema by MyThemeSh
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big,op
+Theme URI: https://mythemeshop.com/themes/schema/
 Author: MyThemeShop
-Author URI: http://mythemeshop.com/
+Author URI: https://mythemeshop.com/
 Description: Schema is a fast loading, ultra-SEO friendly WordPress theme that features rich snippets in order to help search engines identify all parts of your site and rank you higher.
-Version: 3.2.1
+Version: 3.1.9
 Text Domain: schema
 Domain Path: /lang
 */
@@ -161,8 +162,8 @@ body {
 }
 .post-single-content h1, .post-single-content h2, .post-single-content h3, .post-single-content h4, .post-single-content h5, .post-single-content h6 { text-transform: uppercase }
 .post-single-content h2 {
-    font-size: 24px;
-    font-family: 'vazir';
+	font-size: 24px;
+	font-family: 'vazir';
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -199,10 +200,10 @@ a {
 }
 a:hover { color: #125dab }
 a:link, a:visited, a:active { 
-    text-decoration: none;
-    font-family: 'vazir';
+	text-decoration: none;
+	font-family: 'vazir';
 
-    }
+	}
 /*-[ Main container ]---------------*/
 .main-container {
     width: 100%;
@@ -309,7 +310,7 @@ div#regular-header {
 .widget-header .textwidget {
     float: left;
     margin-top: 46px;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid #e0e0e0;
     padding-left: 20px;
 }
 #primary-navigation .navigation .menu {
@@ -741,9 +742,9 @@ hr {
 }
 /*-[ Search Form ]------------------*/
 #sidebar .widget.widget_search, #sidebar .widget.mts_subscribe_widget, #sidebar .widget.widget_product_search {
-    background: #fff;
-    box-shadow: 0 3px 3px rgba(0,0,0,.15);
-    border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 3px 3px rgba(0,0,0,.15);
+	border-radius: 4px;
   }
 #sidebar .widget.widget_search h3 { color: #fff }
 #searchform {
@@ -861,8 +862,8 @@ input::-webkit-input-speech-button {
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
 }
 .sidebar .widget h3 {
-    text-transform: uppercase;
-    font-family:'vazir';
+	text-transform: uppercase;
+	font-family:'vazir';
 }
 .widget .title {
     font-weight: bold;
@@ -1145,9 +1146,9 @@ footer .container {
     font-weight: 400!important;
 }
 .related-posts .title a:hover { 
-    color: #1985f3!important;
-    font-family: 'vazir';
-     }
+	color: #1985f3!important;
+	font-family: 'vazir';
+	 }
 .related-posts article header { margin-bottom: 0 }
 /*-[ Post Tags ]---------------------------------*/
 .tags {
@@ -1167,7 +1168,7 @@ footer .container {
     width: 100%;
     color: #1f1f1f;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
-    border-radius: 4px;
+	border-radius: 4px;
 }
 .postauthor h4 {
     padding-top: 6px;
@@ -1357,7 +1358,7 @@ input#author, input#email, input#url, #comment { transition: all 0.25s ease-in-o
     border: none;
     transition: all 0.2s linear;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
-    border-radius: 4px;
+	border-radius: 4px;
 }
 #commentform input#submit:hover, #mtscontact_submit:hover {
     background: #4c4c4c;
@@ -1919,4 +1920,344 @@ input[type=submit]{
     box-shadow:0 3px 3px rgba(0,0,0,.15);
     background-color: #40d47e;
  }
+@font-face {
+    font-family: "Vazir";
+    src: url("fonts/Vasir.eot");
+    src: url("fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Vazir.woff") format("woff"),
+    url("fonts/Vazir.ttf") format("truetype"),
+    url("fonts/Vazir.svg#Vazir") format("svg");
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: "Vazir";
+    src: url("fonts/Vazir-Bold.eot");
+    src: url("fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Vazir-Bold.woff") format("woff"),
+    url("fonts/Vazir-Bold.ttf") format("truetype"),
+    url("fonts/Vazir-Bold.svg#Vazir-Bold") format("svg"); 
+    font-weight: bold;
+}
+
+/*-[ first page ]-----------------------*/
+
+/* CSS used here will be applied after bootstrap.css */
+
+.carousel-inner{
+   background-image: url(images/2980b9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width: 100%;
+    
+  }
+  
+  .carousel-caption{
+     top:1em; 
+    }
+
+
+#front-h1 {
+    font-family: "Vazir" !important;
+}
+#first-link { 
+    margin: 0;
+    font-weight: inherit;
+    background: #FFAD00;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: 0;
+    min-height: 50px;
+    margin: auto auto;
+    margin-bottom: 40px;
+}
+.inner-div {
+    padding-top: 14px;
+}
+#continue {
+    color: white;
+    font-weight: bolder;
+    height: 100px;
+    width: 90px;
+    margin-top: 60px !important;
+    margin-bottom: 20px;
+    margin: auto auto;   
+}
+#continue:hover{
+    opacity: 0.4;
+}
+
+#continue:active{
+    opacity: 0.6;
+}
+.front-nav {
+    height: 60px;
+    padding-top: 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+    color: black;
+}
+.front-nav:hover {
+    background: #eeeeee;
+}
+.front-nav:active {
+    background: #e0e0e0;
+}
+.front-nav-a {
+    text-align: center;
+    height: 60px;
+}
+.frontpage-h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'vazir';
+}
+.frontpage2-h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'vazir';
+}
+#frontpage-h3 {
+    font-size: 15px;
+    text-align: center;
+    color: #676767;
+    padding: 15px;
+    font-family: 'vazir';
+}
+.ask-question {
+    background: #1985F3;
+    color: #fff;
+    font-size:large;
+    height: 60px;
+    padding-top: 11px;
+    direction: rtl;
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.ask-question:hover{
+    background: #5ea9f7;
+}
+.ask-question:active{
+    background: #125dab;
+}
+#category-of-ques {
+    text-align: center;
+    padding: 10px;
+}
+.row1 {
+    margin-left: 8%;
+}
+.ques-cat-item {
+    margin-bottom: 2%;
+    text-align: center;
+    padding-top: 1.1%;
+    height: 50px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+    border-radius: 4px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.ques-cat-item:hover{
+    background: #E4E4E4;
+}
+.ques-cat-item:active{
+    background: #AEAEAE;
+}
+.porsideh{
+    background-color: #FAFAFA !important;
+    direction: rtl;
+    height: 240px;
+}
+.maliat{
+    float: right;
+}
+.bime{
+    
+}
+@media(min-width: 769px) {
+    .col-sm-1 {
+        width: 10%;
+    }
+    .center1 {
+       margin-left: 38%;
+    }
+}
+@media(max-width: 768px) {
+    .row2 {
+        margin-right: 30px;
+    }
+    .col-xs-offset-3 {
+       margin-left: 15%;
+    }
+    .clear-clear{
+        clear: right;
+        float: right;   
+    }
+    .clear-cl {
+        float: right;
+    }
+    .ask-question {
+        margin-bottom: 25px;
+        font-size: medium;
+        min-width: 80%;
+        margin-right: 10%;
+    }
+    .porsideh{
+    	height: 330px;
+    }
+    #first-link {
+    	min-width: 170px;
+    } 
+    .carousel-inner{
+    	height: 400px;
+    	background-position:left;
+    }
+    .col-xs-3{
+        width: 41%;
+    }
+    #all {
+        font-size: 18px !important;
+        padding-top: 4.1% !important;
+        margin: 14px !important;
+        margin-bottom: 10% !important;
+    }
+    .row3 {
+        background: #1985F3 !important;
+    }
+    .ques-cat-item {
+    margin-bottom: 8%;
+    padding-top: 4.1%;
+    }
+    #request{
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 8% !important;
+    }
+    .frontpage2-h2 {
+        color: #fff;
+    }
+    .frontpage-h3{
+    color: #fff;
+    }
+    .Heading2{
+        margin-left: 13%;
+    }
+}
+.row3 {
+    background: #fafafa;
+}
+.row2 {
+    background: #eeeeee;
+}
+.center1 {
+    margin-top: -15px;
+}
+.category {}
+#all {
+    height: 50px;
+    background: #40d47e;
+    margin-bottom: 2%;
+    direction: rtl;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 1%;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+#all:hover {
+    background-color: #79e1a4;
+}
+#all:active {
+    background-color: #33aa65;
+}
+#request {
+    background: #FFAD00;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+}
+#request:hover {
+    background: #ffc44c;
+}
+#request:active{
+    background: #cc8a00;
+}
+.header-of-h2 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Heading2 {
+    font-size: 16px;
+    margin-right: 5%; 
+    font-weight: normal;
+    padding-left: 20px;
+}
+.fa {
+    font-size: 30px;
+}
+.down {
+    margin: 0;
+    padding: 0;
+}
+#telephone {
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'vazir';
+    color: white;
+    font-weight: bold;
+}
+#first-link:hover{
+    background: #ffc44c;
+}
+#first-link:active{
+    background: #cc8a00;
+}
+#logo {
+    background: url(images/logo.png);
+    height: 80px;
+    width: 196px;
+    background-size: cover;
+    margin: auto auto;
+}
+.moshaver{
+text-align: center; 
+margin-top: 40px;
+color: #fff;
+}
+
+#copyright {
+    margin: 0;
+    padding: 0px;
+    background: #1f1f1f;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    line-height: 28px;
+
+}
+.frontpage-h3{
+    text-align:center;
+    font-size:initial;
+}
+
+/*css ha da in catagory bezandi*/
